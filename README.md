@@ -2,7 +2,7 @@
 
 **Learn technology by working with it.**
 
-FirstCommit is a free, open-source educational project dedicated to helping people become confident builders, problem-solvers, and lifelong learners through practical, project-based learning.
+FirstCommit is a free, open-source educational project with a simple goal: helping people become confident builders, problem-solvers, and lifelong computer science learners through practical, project-based learning.
 
 Our goal isn't simply to teach programming more efficiently. it's to help people understand the technology they use every day and gain the confidence to solve problems with it.
 
@@ -42,6 +42,8 @@ We believe people learn best when they:
 * Learn by experimenting, building, and teaching others.
 * Read explanations written by people who still remember what it felt like to be beginners.
 
+No matter how broken the first project is, it's a valuable learning experience. Every improvement starts with an imperfect version.
+
 ## What We Hope to Teach
 
 Programming languages are only part of the picture.
@@ -69,7 +71,7 @@ Topics we hope to cover include:
 
 ## Contributing
 
-FirstCommit was started by someone who is still learning—and that's intentional.
+FirstCommit was started by someone who is still learning, and that's intentional. 
 
 Many educational resources are written by experts who have forgotten what was confusing when they first encountered a concept. We want to preserve those moments where an idea finally **clicks** while they're still fresh.
 
