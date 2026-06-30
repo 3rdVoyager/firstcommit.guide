@@ -1,0 +1,117 @@
+:root {
+    --bg: #090e19;
+    --light-text: #fcfbfb;
+    --button-bg: #325ae3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--light-text);
+    font-size: 16px;
+}
+
+main {
+    background-color: var(--bg);
+    color: var(--light-text);
+    font-size: 1rem;
+}
+
+h1 {
+    color: var(--light-text);
+    font-size: 5rem;
+}
+
+p {
+    color: var(--light-text);
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: var(--bg);
+    color: var(--light-text);
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+#nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#nav-list li {
+    list-style: none;
+    transition: all 0.2s ease;
+}
+
+#nav-list a {
+    color: var(--light-text);
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+}
+
+#nav-list li:hover {
+    transform: scale(1.1) rotate(-2deg);
+}
+
+#nav-list li:first-child:hover {
+    animation: logohover 1s infinite;
+}
+
+#nav-list a:hover {
+    background-color: var(--button-bg);
+}
+
+#nav-list li:first-child a {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#nav-list li:first-child a:hover {
+    background-color: var(--bg);
+}
+
+#nav-list li:first-child {
+    margin-right: auto;
+}
+
+#nav-list li:last-child a {
+    background-color: var(--button-bg);
+    border-radius: 10px;
+}
+
+@keyframes logohover {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(-2deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: var(--bg);
+    color: var(--light-text);
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
