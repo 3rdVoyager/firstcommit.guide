@@ -4,10 +4,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 5rem;
 }
 
 #hero p {
-    width: 400px;
+    width: 600px;
 }
 
 #technology-highlight {
@@ -16,13 +17,24 @@
 
 #features ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    align-items: top;
     text-align: left;
     margin-top: 2rem;
 }
 
 #features li {
+    border: 1px solid var(--light-text);
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding: 1rem;
+    transition: all 0.3s ease;
     list-style: none;
     width: 200px;
+}
+
+#features li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
