@@ -30,6 +30,12 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+h2 {
+    color: var(--light-text);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
 p {
     color: var(--light-text);
     font-size: 1.5rem;
@@ -67,10 +73,6 @@ header {
     transform: scale(1.1) rotate(-2deg);
 }
 
-#nav-list li:first-child:hover {
-    animation: logohover 1s infinite;
-}
-
 #nav-list a:hover {
     background-color: var(--button-bg);
 }
@@ -91,18 +93,6 @@ header {
 #nav-list li:last-child a {
     background-color: var(--button-bg);
     border-radius: 10px;
-}
-
-@keyframes logohover {
-    0% {
-        transform: scale(1) rotate(0deg);
-    }
-    50% {
-        transform: scale(1.1) rotate(-2deg);
-    }
-    100% {
-        transform: scale(1) rotate(0deg);
-    }
 }
 
 .small-text {
